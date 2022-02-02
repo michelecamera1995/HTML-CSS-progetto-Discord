@@ -111,17 +111,15 @@
 
 .containermain {
     width: 1200px;
-    margin: 75px auto 290px auto;
+    margin: 80px auto 300px auto;
 }
 
 .containerimg {
     width: 800px;
-    margin: 25px auto;
 }
 
 .containertext {
     width: 400px;
-    margin: 25px auto;
 }
 
 .containertext h2 {
