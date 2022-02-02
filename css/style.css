@@ -109,6 +109,37 @@
     margin: 0px auto;
 }
 
+.containermain {
+    width: 1200px;
+    margin: 25px auto;
+}
+
+.containerimg {
+    width: 800px;
+    margin: 25px auto;
+}
+
+.containertext {
+    width: 400px;
+    margin: 25px auto;
+}
+
+h2 {
+        font-size: 55px;
+        font-weight: bold;
+        padding-left: 30px;
+        line-height: 50px;
+        padding-bottom: 29px;
+        padding-top: 27px;  
+}
+
+ p {
+    font-size: 19px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding-left: 25px;
+}
+
 .logo{
     vertical-align: middle;   
 }
