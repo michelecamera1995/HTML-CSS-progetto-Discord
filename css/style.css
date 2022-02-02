@@ -61,6 +61,7 @@
 /* content button */
 
 .btn {
+    display: inline-block;
     background-color: #ffffff;
     border-radius: 20px;
     color: #000000;
@@ -73,8 +74,32 @@
     text-align: center;
     text-decoration: none;
     width: 75px;
+}
+
+.btnbig {
+    font-weight: 600;
+    margin-left: 15px;
+    border-radius: 30px;
+    padding: 17px 33px;
+    height: 57px;
+    width: auto;
+    font-size: 20px;
+    margin-bottom: 55px;
+}
+
+.btnblk {
+    background-color: #23272a;
+    color: white;
+}
+
+.btnnav {
     margin-top: 22px;
     margin-left: 83px;
+}
+
+.wh:before {
+    content: "\2913";
+    padding-right: 5px;
 }
 
 /* content general */
@@ -116,3 +141,38 @@ nav ul li {
     font-weight:600;
     font-size: 17px;
  }
+
+ a:hover {
+    text-decoration: underline;
+ }
+
+ .bottomheader{
+    position: relative;
+    text-align: center;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    height: 550px;
+}
+
+.bottomheader div{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.bottomheader h1{
+    color: white;
+    font-size: 65px;
+    margin-bottom: 25px;
+
+}
+.bottomheader p{
+    color: white;
+    width: 780px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 2px auto;
+    margin-bottom: 25px;
+}
