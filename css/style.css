@@ -32,6 +32,15 @@
     margin-bottom: 80px;
 }
 
+.bg-clheader{
+    background-color:#3161e0 ;    
+}
+
+.bg-clfooter{
+    background-color:#23272a ;    
+}
+
+
 /* content widht */
 
 .w-10{
@@ -174,10 +183,13 @@ p {
 }
 
 .topheader{
-        background-color:#3161e0 ;
         height: 80px;
         line-height: 80px;
  }
+
+ul{
+    list-style-type: none;
+}
 
 nav {
     text-align: center;
@@ -256,4 +268,74 @@ nav ul li {
     height: 45px;
     line-height: 60px;
     vertical-align: middle;
+}
+
+
+.foottable{
+    padding-top: 100px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #8ea1e1  ;
+}
+
+.foottable h5{
+    width: 260px ;
+}
+
+
+h5{
+    color: #8ea1e1 ;
+    font-weight:600;
+    font-size: 35px;
+}
+
+h6{
+    color: #8ea1e1 ;
+    font-weight:600;
+    font-size: 17px;
+}
+
+div ul li a {
+    line-height: 35px;;
+   text-decoration: none;
+   color:white;
+   font-weight:500;
+   font-size: 17px;
+}
+
+.italian {
+    height: 10px;
+    padding-top: 15px;
+    color:white;
+    font-size:15px;
+    display: inline-block;
+}
+
+.italianflag {
+    width: 25px;
+    height: 17px;
+    border-radius: 5%;  
+    display: inline-block; 
+ }
+
+ div span {
+    vertical-align: middle;
+    padding-bottom: 8px;
+    display: inline-block;
+    font-weight: bold;
+    
+}
+
+.italian:after {
+    content:"\21B4";
+}
+
+.socialbar {
+    padding-top:10px;
+}
+
+.socialbar a {
+    margin-right: 15px;
+    width: 25px;
+    font-size: 20px;
+    color: white;
 }

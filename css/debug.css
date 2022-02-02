@@ -11,6 +11,7 @@
 
 .debugtext{
     background-color: rgb(255, 47, 47);
+    border: 0.5px solid black;
 }
 
 .debugsection{
@@ -25,5 +26,14 @@
 .debugjumbo{
     background-color: greenyellow;
     height: 550px;
+}
+
+.debugheight{
+    height: 250px;
+}
+
+.debugsocial{
+    height: 50px;
+    background-color: blue;
 }
 
