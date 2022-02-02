@@ -339,3 +339,22 @@ div ul li a {
     font-size: 20px;
     color: white;
 }
+
+.underfooter {
+    line-height: 80px;
+    height:80px
+}
+
+.underfooter img {
+    padding-top: 20px;
+}
+
+.underfooter a {
+    vertical-align: middle;
+}
+
+.underfooter div {
+    vertical-align: middle;
+    background-color: rgba(0, 0, 0, 0);
+    height: 80px;
+}
