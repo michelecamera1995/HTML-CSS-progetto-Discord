@@ -24,6 +24,10 @@
     float:right
 }
 
+.text-align{
+    text-align: center;
+}
+
 /* content widht */
 
 .w-10{
@@ -122,18 +126,26 @@
     width: 400px;
 }
 
-.containertext h2 {
+h2 {
     font-size: 55px;
     font-weight: bold;
-    line-height: 50px;
-    padding-bottom: 29px;
-    padding-top: 27px;  
 }
 
-.containertext p {
+p {
     font-size: 19px;
     font-weight: bold;
     color: rgb(0, 0, 0);
+}
+
+.centr p {
+    width: 1009px;
+    margin: 10px 95px
+}
+
+.containertext h2 {
+    line-height: 50px;
+    padding-bottom: 29px;
+    padding-top: 27px;  
 }
 
 .dx h2 {
@@ -204,8 +216,8 @@ nav ul li {
     color: white;
     font-size: 65px;
     margin-bottom: 25px;
-
 }
+
 .bottomheader p{
     color: white;
     width: 780px;
@@ -214,4 +226,11 @@ nav ul li {
     text-align: center;
     padding: 2px auto;
     margin-bottom: 25px;
+}
+
+.bigimg{
+    margin-top: 70px;
+    width: 1200px;
+    height: 600px;
+    object-fit:cover;
 }
