@@ -28,6 +28,10 @@
     text-align: center;
 }
 
+.margin-bottom{
+    margin-bottom: 80px;
+}
+
 /* content widht */
 
 .w-10{
@@ -88,11 +92,16 @@
     height: 57px;
     width: auto;
     font-size: 20px;
-    margin-bottom: 55px;
+    margin-bottom: 80px;
 }
 
 .btnblk {
     background-color: #23272a;
+    color: white;
+}
+
+.btnblue {
+    background-color: #8ea1e1  ;
     color: white;
 }
 
@@ -233,4 +242,18 @@ nav ul li {
     width: 1200px;
     height: 600px;
     object-fit:cover;
+}
+
+.stars{
+    margin-top: 80px;
+    margin-bottom: 40px;
+    display: inline-block;
+    text-align: center;
+    font-size: 25px;
+    background-image: url(../img/stars.svg);
+    background-size: cover;
+    width: 500px;
+    height: 45px;
+    line-height: 60px;
+    vertical-align: middle;
 }
