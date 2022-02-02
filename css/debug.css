@@ -1,7 +1,11 @@
 
+.debugheader{
+    background-color: rgb(50, 47, 255);
+    height: 80px;
+}
+
 .debugarticle{
     background-color: greenyellow;
-    width: 31.3%;
     height: 565px;
 }
 
@@ -13,3 +17,8 @@
     background-color: rgb(68, 47, 255);
     height:600px;
 }
+
+.debugborder{
+    border: 0.5px solid red;
+}
+
