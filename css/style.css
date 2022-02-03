@@ -20,10 +20,6 @@
     float:left
 }
 
-.float-right{
-    float:right
-}
-
 .text-align{
     text-align: center;
 }
@@ -43,16 +39,8 @@
 
 /* content widht */
 
-.w-10{
-    width: 10%;
-}
-
 .w-15{
     width: 15%;
-}
-
-.w-20{
-    width: 20%;
 }
 
 .w-70{
