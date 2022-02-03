@@ -342,19 +342,23 @@ div ul li a {
 
 .underfooter {
     line-height: 80px;
-    height:80px
+    height:100px;
 }
 
 .underfooter img {
     padding-top: 20px;
+    padding-right: 50px;
+    height: 55px;
+
 }
 
 .underfooter a {
     vertical-align: middle;
+    margin-left: 100px;
 }
 
 .underfooter div {
     vertical-align: middle;
     background-color: rgba(0, 0, 0, 0);
-    height: 80px;
+    height: 100px;
 }
